@@ -1,0 +1,547 @@
+{
+  "monsters": [
+    {
+      "id": 1,
+      "name": "Anjanath",
+      "categories": "Large monster",
+      "species": "Brute Wyvern",
+      "elements": "Fire",
+      "weakness": "Water",
+      "habitats": "Ancient Forest,Wildspire Waste",
+      "icon": "MHW-Anjanath_Icon.png (https://dl.airtable.com/.attachments/17a7112db02c3dd24b709b4b0c245c20/103a8301/MHW-Anjanath_Icon.png)"
+    },
+    {
+      "id": 2,
+      "name": "Barroth",
+      "categories": "Large monster",
+      "species": "Brute Wyvern",
+      "elements": "Earth",
+      "weakness": "Water,Fire,Ice",
+      "habitats": "Wildspire Waste",
+      "icon": "MHW-Barroth_Icon.png (https://dl.airtable.com/.attachments/de421f6052e996b66775ead5cecb0b8f/55a32883/MHW-Barroth_Icon.png)"
+    },
+    {
+      "id": 3,
+      "name": "Bazelgeuse",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "Fire",
+      "weakness": "Thunder,Ice,Dragon",
+      "habitats": "Ancient Forest,Wildspire Waste,Coral Highlands,Rotten Vale,Elder's Recess",
+      "icon": "MHW-Bazelgeuse_Icon.png (https://dl.airtable.com/.attachments/1a8c55f1d9095f90131e7740167d66aa/f7d089c7/MHW-Bazelgeuse_Icon.png)"
+    },
+    {
+      "id": 4,
+      "name": "Behemoth",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "Fire,Thunder",
+      "weakness": "Water,Dragon",
+      "habitats": "Elder's Recess",
+      "icon": "MHW-Behemoth_Icon.png (https://dl.airtable.com/.attachments/7d2c68ea5780f84be85f48bd4ef9e2f2/ab46af85/MHW-Behemoth_Icon.png)"
+    },
+    {
+      "id": 5,
+      "name": "Deviljho",
+      "categories": "Large monster",
+      "species": "Brute Wyvern",
+      "elements": "Dragon",
+      "weakness": "Dragon,Thunder",
+      "habitats": "Ancient Forest,Wildspire Waste,Coral Highlands,Rotten Vale,Elder's Recess",
+      "icon": "MHW-Deviljho_Icon.png (https://dl.airtable.com/.attachments/86a8e4573cd25ddf90ad81ef82d9f519/ecc3bbb9/MHW-Deviljho_Icon.png)"
+    },
+    {
+      "id": 6,
+      "name": "Diablos",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "",
+      "weakness": "Ice",
+      "habitats": "Wildspire Waste",
+      "icon": "MHW-Diablos_Icon.png (https://dl.airtable.com/.attachments/c97224ed7183a8e67066ac2a836ee2c7/66ce565f/MHW-Diablos_Icon.png)"
+    },
+    {
+      "id": 7,
+      "name": "Black Diablos",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "",
+      "weakness": "Ice",
+      "habitats": "Wildspire Waste",
+      "icon": "MHW-Black_Diablos_Icon.png (https://dl.airtable.com/.attachments/fad7ca89268aa8aa0688809bd4882bce/ce534e25/MHW-Black_Diablos_Icon.png)"
+    },
+    {
+      "id": 8,
+      "name": "Dodogama",
+      "categories": "Large monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "Thunder",
+      "habitats": "Elder's Recess",
+      "icon": "MHW-Dodogama_Icon.png (https://dl.airtable.com/.attachments/513f1d552350ef16ae3a5f1a31b98896/a29c0898/MHW-Dodogama_Icon.png)"
+    },
+    {
+      "id": 9,
+      "name": "Great Girros",
+      "categories": "Large monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "Water,Ice",
+      "habitats": "Rotten Vale",
+      "icon": "MHW-Great_Girros_Icon.png (https://dl.airtable.com/.attachments/494fe9c2f4d6e3138b7f2e5fbb8ee93b/4d0556c1/MHW-Great_Girros_Icon.png)"
+    },
+    {
+      "id": 10,
+      "name": "Great Jagras",
+      "categories": "Large monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "Fire",
+      "habitats": "Ancient Forest",
+      "icon": "MHW-Great_Jagras_Icon.png (https://dl.airtable.com/.attachments/edd246372b3ca5b533b6571053888c53/8950eb49/MHW-Great_Jagras_Icon.png)"
+    },
+    {
+      "id": 11,
+      "name": "Jyuratodus",
+      "categories": "Large monster",
+      "species": "Piscine Wyvern",
+      "elements": "Water",
+      "weakness": "Thunder,Water",
+      "habitats": "Wildspire Waste",
+      "icon": "MHW-Jyuratodus_Icon.png (https://dl.airtable.com/.attachments/ec5dec164cd4c9ea0319bf1088f55e27/b1087b6a/MHW-Jyuratodus_Icon.png)"
+    },
+    {
+      "id": 12,
+      "name": "Kirin",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "Thunder",
+      "weakness": "Fire,Water",
+      "habitats": "Coral Highlands",
+      "icon": "MHW-Kirin_Icon.png (https://dl.airtable.com/.attachments/9d11b6bec081a96f56906ed90f91737c/439b5448/MHW-Kirin_Icon.png)"
+    },
+    {
+      "id": 13,
+      "name": "Kulu-Ya-Ku",
+      "categories": "Large monster",
+      "species": "Bird Wyvern",
+      "elements": "",
+      "weakness": "Water",
+      "habitats": "Ancient Forest,Wildspire Waste",
+      "icon": "MHW-Kulu-Ya-Ku_Icon.png (https://dl.airtable.com/.attachments/d5686b1c3d0385c866248bd2d03c6367/c5473822/MHW-Kulu-Ya-Ku_Icon.png)"
+    },
+    {
+      "id": 14,
+      "name": "Kulve Taroth",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "Fire",
+      "weakness": "Thunder,Ice",
+      "habitats": "Caverns of El Dorado",
+      "icon": "MHW-Kulve_Taroth_Icon.png (https://dl.airtable.com/.attachments/c647432441df756a315f3a2edf32245f/0ffc99bb/MHW-Kulve_Taroth_Icon.png)"
+    },
+    {
+      "id": 15,
+      "name": "Kushala Daora",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "Dragon",
+      "weakness": "Thunder,Dragon",
+      "habitats": "Ancient Forest,Elder's Recess",
+      "icon": "MHW-Kushala_Daora_Icon.png (https://dl.airtable.com/.attachments/96f01d717efb696642f0f2d1cfdee86a/a12bfe5f/MHW-Kushala_Daora_Icon.png)"
+    },
+    {
+      "id": 16,
+      "name": "Lavasioth",
+      "categories": "Large monster",
+      "species": "Piscine Wyvern",
+      "elements": "Fire",
+      "weakness": "Water",
+      "habitats": "Elder's Recess",
+      "icon": "MHW-Lavasioth_Icon.png (https://dl.airtable.com/.attachments/247c6d3efd2bcb961aa220d54218dc81/11c78975/MHW-Lavasioth_Icon.png)"
+    },
+    {
+      "id": 17,
+      "name": "Legiana",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "Ice",
+      "weakness": "Thunder,Fire",
+      "habitats": "Coral Highlands",
+      "icon": "MHW-Legiana_Icon.png (https://dl.airtable.com/.attachments/18e13ad9b8dc60adb90d20c364f65fd4/30a29753/MHW-Legiana_Icon.png)"
+    },
+    {
+      "id": 18,
+      "name": "Leshen",
+      "categories": "Large monster",
+      "species": "Relict",
+      "elements": "",
+      "weakness": "Fire",
+      "habitats": "Ancient Forest",
+      "icon": "MHW-Leshen_Icon.png (https://dl.airtable.com/.attachments/9de5c6bf9a1c11e241ebff577442cbe2/853ce7c9/MHW-Leshen_Icon.png)"
+    },
+    {
+      "id": 19,
+      "name": "Ancient Leshen",
+      "categories": "Large monster",
+      "species": "Relict",
+      "elements": "",
+      "weakness": "Fire",
+      "habitats": "Ancient Forest",
+      "icon": "MHW-Ancient_Leshen_Icon.png (https://dl.airtable.com/.attachments/6a41a394e100c09a59cd2bf03436cda0/e315ddf3/MHW-Ancient_Leshen_Icon.png)"
+    },
+    {
+      "id": 20,
+      "name": "Lunastra",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "Fire,Dragon",
+      "weakness": "Dragon,Ice",
+      "habitats": "Wildspire Waste,Elder's Recess",
+      "icon": "MHW-Lunastra_Icon.png (https://dl.airtable.com/.attachments/c3c3a3b31e3a3cbd15f62a82d5c5c25e/17910967/MHW-Lunastra_Icon.png)"
+    },
+    {
+      "id": 21,
+      "name": "Odogaron",
+      "categories": "Large monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "Ice,Thunder",
+      "habitats": "Coral Highlands,Rotten Vale",
+      "icon": "MHW-Odogaron_Icon.png (https://dl.airtable.com/.attachments/be23f2b80e5f78e7e4fb1e199798ce30/2d4457b9/MHW-Odogaron_Icon.png)"
+    },
+    {
+      "id": 22,
+      "name": "Nergigante",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "",
+      "weakness": "Thunder",
+      "habitats": "Wildspire Waste,Elder's Recess",
+      "icon": "MHW-Nergigante_Icon.png (https://dl.airtable.com/.attachments/3a94582bbc196725b597d829a25e3ddc/78b4dccb/MHW-Nergigante_Icon.png)"
+    },
+    {
+      "id": 23,
+      "name": "Paolumu",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "",
+      "weakness": "Fire,Thunder",
+      "habitats": "Coral Highlands",
+      "icon": "MHW-Paolumu_Icon.png (https://dl.airtable.com/.attachments/0bf1e16fd5e28ecc42846aa0de177c73/f1137094/MHW-Paolumu_Icon.png)"
+    },
+    {
+      "id": 24,
+      "name": "Pukei-Pukei",
+      "categories": "Large monster",
+      "species": "Bird Wyvern",
+      "elements": "",
+      "weakness": "Thunder",
+      "habitats": "Ancient Forest,Wildspire Waste",
+      "icon": "MHW-Pukei-Pukei_Icon.png (https://dl.airtable.com/.attachments/8089ae938a7a79186e45e1bfa30f0916/53ede321/MHW-Pukei-Pukei_Icon.png)"
+    },
+    {
+      "id": 25,
+      "name": "Radobaan",
+      "categories": "Large monster",
+      "species": "Brute Wyvern",
+      "elements": "",
+      "weakness": "Ice,Dragon",
+      "habitats": "",
+      "icon": "MHW-Radobaan_Icon.png (https://dl.airtable.com/.attachments/293f94325884e01008b4fce0e262e70d/1e23ba17/MHW-Radobaan_Icon.png)"
+    },
+    {
+      "id": 26,
+      "name": "Rathalos",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "Fire",
+      "weakness": "",
+      "habitats": "Ancient Forest,Elder's Recess",
+      "icon": "MHW-Rathalos_Icon.png (https://dl.airtable.com/.attachments/fc5a23cba2477a9776793b3153a3f229/3aaefedb/MHW-Rathalos_Icon.png)"
+    },
+    {
+      "id": 27,
+      "name": "Azure Rathalos",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "Fire",
+      "weakness": "",
+      "habitats": "Ancient Forest,Elder's Recess",
+      "icon": "MHW-Azure_Rathalos_Icon.png (https://dl.airtable.com/.attachments/8141041b59d9d25d82865820c7713800/55ca1da9/MHW-Azure_Rathalos_Icon.png)"
+    },
+    {
+      "id": 28,
+      "name": "Rathian",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Rathian_Icon.png (https://dl.airtable.com/.attachments/6bd94a84a5828320e3ffdf8a6b9a7101/13214435/MHW-Rathian_Icon.png)"
+    },
+    {
+      "id": 29,
+      "name": "Pink Rathian",
+      "categories": "Large monster",
+      "species": "Flying Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Pink_Rathian_Icon.png (https://dl.airtable.com/.attachments/7b8b6784a1596bfd695418ff54448920/6c8f94bd/MHW-Pink_Rathian_Icon.png)"
+    },
+    {
+      "id": 30,
+      "name": "Teostra",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Teostra_Icon.png (https://dl.airtable.com/.attachments/ca9595a45b6eb045e78e4d3cd765f2c2/365f7b7e/MHW-Teostra_Icon.png)"
+    },
+    {
+      "id": 31,
+      "name": "Tobi-Kadachi",
+      "categories": "Large monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Tobi-Kadachi_Icon.png (https://dl.airtable.com/.attachments/b3d6c3b3efd4f6bb844745bf82015938/5921190d/MHW-Tobi-Kadachi_Icon.png)"
+    },
+    {
+      "id": 32,
+      "name": "Tzitzi-Ya-Ku",
+      "categories": "Large monster",
+      "species": "Bird Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Tzitzi-Ya-Ku_Icon.png (https://dl.airtable.com/.attachments/d4f6fcdf88723298e02470c0d2ebc616/e10b20b9/MHW-Tzitzi-Ya-Ku_Icon.png)"
+    },
+    {
+      "id": 33,
+      "name": "Uragaan",
+      "categories": "Large monster",
+      "species": "Brute Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Uragaan_Icon.png (https://dl.airtable.com/.attachments/dcf59d44535dcf2f0a366fcde673c050/9997e446/MHW-Uragaan_Icon.png)"
+    },
+    {
+      "id": 34,
+      "name": "Vaal Hazak",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Vaal_Hazak_Icon.png (https://dl.airtable.com/.attachments/7f2326861cbe216ff645f972f4703f5e/ee284539/MHW-Vaal_Hazak_Icon.png)"
+    },
+    {
+      "id": 35,
+      "name": "Xeno'jiiva",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Xeno'jiiva_Icon.png (https://dl.airtable.com/.attachments/80b8eb98d88405187faa1c9baf8ae8c4/5b2a75cf/MHW-Xenojiiva_Icon.png)"
+    },
+    {
+      "id": 36,
+      "name": "Zorah Magdaros",
+      "categories": "Large monster",
+      "species": "Elder Dragon",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Zorah_Magdaros_Icon.png (https://dl.airtable.com/.attachments/3bd89fe9f0d28b5862d5b54c3eedb4e7/b5529076/MHW-Zorah_Magdaros_Icon.png)"
+    },
+    {
+      "id": 37,
+      "name": "Apceros",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Apceros_Icon.png (https://dl.airtable.com/.attachments/acca271fcf98ea6a5c804e9d1cad0fd0/24351adb/MHW-Apceros_Icon.png)"
+    },
+    {
+      "id": 38,
+      "name": "Aptonoth",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Aptonoth_Icon.png (https://dl.airtable.com/.attachments/009ed6ed69407c1d02fdd6811b25d1eb/b8cd5fab/MHW-Aptonoth_Icon.png)"
+    },
+    {
+      "id": 39,
+      "name": "Barnos",
+      "categories": "Small monster",
+      "species": "Wingdrake",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Barnos_Icon.png (https://dl.airtable.com/.attachments/37931c7ec927b8aae9caea7c92943365/137bae74/MHW-Barnos_Icon.png)"
+    },
+    {
+      "id": 40,
+      "name": "Gajalaka",
+      "categories": "Small monster",
+      "species": "Lynian",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Gajalaka_Icon.png (https://dl.airtable.com/.attachments/7ab26480649ed73aedecdc1f924d6042/e3940a4f/MHW-Gajalaka_Icon.png)"
+    },
+    {
+      "id": 41,
+      "name": "Gajau",
+      "categories": "Small monster",
+      "species": "Fish",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Gajau_Icon.png (https://dl.airtable.com/.attachments/0d1a58d8dd1ca0d69b63019b196df774/e3f95b2a/MHW-Gajau_Icon.png)"
+    },
+    {
+      "id": 42,
+      "name": "Gastodon",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Gastodon_Icon.png (https://dl.airtable.com/.attachments/2ade9befdd3186230081c4ac226fb392/e5c4474c/MHW-Gastodon_Icon.png)"
+    },
+    {
+      "id": 43,
+      "name": "Girros",
+      "categories": "Small monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Girros_Icon.png (https://dl.airtable.com/.attachments/2317fe9ff7bf1e34f415075dd5588c02/6c08d47b/MHW-Girros_Icon.png)"
+    },
+    {
+      "id": 44,
+      "name": "Grimalkyne",
+      "categories": "Small monster",
+      "species": "Lynian",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Grimalkyne_Icon.png (https://dl.airtable.com/.attachments/602c13ef60619522a20b8ff26ed93a54/6012b584/MHW-Grimalkyne_Icon.png)"
+    },
+    {
+      "id": 45,
+      "name": "Hornetaur",
+      "categories": "Small monster",
+      "species": "Neopteron",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Hornetaur_Icon.png (https://dl.airtable.com/.attachments/6733bf988e5b7cf3844ff3583834645c/b08fbf95/MHW-Hornetaur_Icon.png)"
+    },
+    {
+      "id": 46,
+      "name": "Jagras",
+      "categories": "Small monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Jagras_Icon.png (https://dl.airtable.com/.attachments/6362b3673a7e4dba1923f9272d3af482/5a67a21b/MHW-Jagras_Icon.png)"
+    },
+    {
+      "id": 47,
+      "name": "Kelbi",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Kelbi_Icon.png (https://dl.airtable.com/.attachments/3ce929be6ffef16326ed2bc78e20dc04/fef2a5d3/MHW-Kelbi_Icon.png)"
+    },
+    {
+      "id": 48,
+      "name": "Kestodon",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Kestodon_Icon.png (https://dl.airtable.com/.attachments/ad5932378a9ea60118cfd3e33233dea8/f795d514/MHW-Kestodon_Icon.png)"
+    },
+    {
+      "id": 49,
+      "name": "Mernos",
+      "categories": "Small monster",
+      "species": "Wingdrake",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Mernos_Icon.png (https://dl.airtable.com/.attachments/9ff3ec977e57be49a3ae9b2a9ea27354/dbc6a78a/MHW-Mernos_Icon.png)"
+    },
+    {
+      "id": 50,
+      "name": "Mosswine",
+      "categories": "Small monster",
+      "species": "Herbivore",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Mosswine_Icon.png (https://dl.airtable.com/.attachments/66b1b693a06417de240c928816ecd08f/52f0c920/MHW-Mosswine_Icon.png)"
+    },
+    {
+      "id": 51,
+      "name": "Noios",
+      "categories": "Small monster",
+      "species": "Wingdrake",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Noios_Icon.png (https://dl.airtable.com/.attachments/4bd608c3b37f413ec815090005f7a530/0ead1356/MHW-Noios_Icon.png)"
+    },
+    {
+      "id": 52,
+      "name": "Raphinos",
+      "categories": "Small monster",
+      "species": "Wingdrake",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Raphinos_Icon.png (https://dl.airtable.com/.attachments/4a53121d75290bc53c97c37282908001/36c2b507/MHW-Raphinos_Icon.png)"
+    },
+    {
+      "id": 53,
+      "name": "Shamos",
+      "categories": "Small monster",
+      "species": "Fanged Wyvern",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Shamos_Icon.png (https://dl.airtable.com/.attachments/ec9c81312263c11dcdf984324366c506/e6ee3c83/MHW-Shamos_Icon.png)"
+    },
+    {
+      "id": 54,
+      "name": "Vespoid",
+      "categories": "Small monster",
+      "species": "Neopteron",
+      "elements": "",
+      "weakness": "",
+      "habitats": "",
+      "icon": "MHW-Vespoid_Icon.png (https://dl.airtable.com/.attachments/fda743d409126185e87be504f29a2ba8/aa069b60/MHW-Vespoid_Icon.png)"
+    }
+  ],
+  "armors": [],
+  "weapons": [],
+  "materials": []
+}
