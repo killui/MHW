@@ -1,58 +1,35 @@
 // Import
+var createError = require('http-errors');
 var express = require('express');
-var bodyParser = require('body-parser');
-
-// Data
-var data = require('./data.json');
 
 var hostname = 'localhost';
 var port = 3000;
+
 var app = express();
-var myRouter = express.Router();
 
-app.use(bodyParser.json({ type: 'application/json' }));
+// Data
+var data = require('./data.json');
+var monsters = data.monsters;
 
-// Monsters
-// /
-myRouter.route('/')
-.all(function(req,res){
-      res.json({message : "Bienvenue sur notre MHW API ", methode : req.method});
+// Get /monsters
+app.get('/monsters', function(req, res, next) {
+	res.send(monsters);
 });
-// /monsters
-myRouter.route('/monsters')
-.get(function(req,res){
-		if (res.status = 200) {
-			console.log(res.status);
-			res.json(data.monsters);
-		} else if (res.status = 404) {
-			console.log(res.status);
-			res.json({ error: 'Not found' });
-		} else {
-			console.log(res.status);
-			res.json({ error: 'Something is wrong' });
-		}
-});
-// /monsters/:id
-myRouter.route('/monsters/:id')
-.get(function(req,res){
-		console.log(res.statusCode);
-		if (res.status(200)) {
-			res.json(data.monsters[req.params.id - 1]);
-		} else {
-			res.json({ error: '404 Not Found' });
-		}
+// Get /monsters/:id
+app.get('/monsters/:id', function(req, res, next) {
+	res.send(monsters[req.params.id - 1]);
 });
 
-// Armors
+// catch 404 and forward to error handler
+app.use(function(req, res, next) {
+  next(createError(404, '404 Not Found'));
+});
 
-// Weapons
+// error handler
+app.use(function(err, req, res, next) {
+  res.send(err.message);
+});
 
-// Materials
-
-
-app.use(myRouter);
-
-// Server
 app.listen(port, hostname, function(){
 	console.log("Mon serveur fonctionne sur http://"+ hostname +":"+port+"\n");
 });
